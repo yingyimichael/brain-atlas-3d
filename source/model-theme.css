@@ -1,0 +1,63 @@
+/* Warm ivory, terracotta and mint, sampled visually from the physical teaching model. */
+:root {
+  --paper: #f7f3ed;
+  --ink: #443c37;
+  --muted: #7c7068;
+  --line: #dfd4ca;
+  --sage: #e4ede5;
+  --soft: #f0e7df;
+  --accent: #aa463e;
+  --accent-soft: #f1dfd7;
+}
+button:focus-visible, a:focus-visible, [tabindex]:focus-visible {
+  outline-color: var(--accent);
+}
+button:hover { background: var(--soft); }
+button:active { background: #e9d8ce; }
+.brand-symbol { color: #ad6253; }
+.brand-title span, .group-label, .module .num, .overview-steps b,
+.stage-meta small, .stage-note, .keyboard-note, .info-index,
+.en-name, .info-section h3, .example .small, .info-fine,
+.pager span, .footer, .map-label, .scrubber {
+  color: var(--muted);
+}
+.music[aria-pressed=true] { background: var(--sage); border-color: #a7bca9; }
+.module { border-color: var(--line); }
+.module .dot { border-color: #00000024; }
+.module[aria-pressed=true] {
+  background: var(--accent-soft);
+  color: #733b32;
+  box-shadow: inset 2px 0 0 var(--color);
+}
+.module.visited:after, .progress-fill, .functions li:before {
+  background: var(--accent);
+}
+.progress-track { background: var(--line); }
+.stage {
+  border-color: var(--line);
+  background-color: #faf7f2;
+  background-image: linear-gradient(#9677650c 1px,transparent 1px),
+    linear-gradient(90deg,#9677650c 1px,transparent 1px);
+}
+.view-pill, .view-controls {
+  background: #faf7f2ee;
+  border-color: var(--line);
+}
+.view-controls button[aria-pressed=true] { background: var(--accent-soft); color: #733b32; }
+.primary { background: var(--accent); border-color: var(--accent); color: #fffaf6; }
+.primary:hover { background: #913c35; }
+.primary:active { background: #7f332e; }
+.secondary { background: #faf7f299; border-color: var(--line); }
+.secondary:hover { background: var(--soft); }
+.info-index:before { background: #b98d7a; }
+.example { background: #f0e5dc; }
+.label3d {
+  color: #6b4036;
+  background: #fff9f3f2;
+  border-color: #cfaa98;
+  box-shadow: 0 2px 10px #80513c0b;
+}
+#links3d path { stroke: #ae7463; }
+#brain3d:focus-visible { outline-color: #b57f69; }
+.scrubber input { accent-color: var(--accent); }
+#loading { color: var(--muted); background: #f7f3edf2; }

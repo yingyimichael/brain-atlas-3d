@@ -1,0 +1,8 @@
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International.
+
+Official source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html
+License: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+https://creativecommons.org/licenses/by/4.0/
+
+Adaptations: anatomical grouping, normalized coordinates, recomputed normals and curvature shading, materials referenced to a physical teaching model, separation/reassembly animation, inline HTML packaging.
+The source geometry is an anatomical reference model, not an individual clinical scan.
